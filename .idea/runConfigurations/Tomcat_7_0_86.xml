@@ -1,0 +1,71 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Tomcat 7.0.86" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 7.0.86" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <option name="LOCAL" value="false" />
+    <option name="UPDATING_POLICY" value="hot-swap-classes" />
+    <deployment>
+      <artifact name="xlcx:war">
+        <settings>
+          <option name="CONTEXT_PATH" value="/xlcx_war" />
+        </settings>
+      </artifact>
+    </deployment>
+    <server-settings>
+      <data>
+        <option name="targets">
+          <list>
+            <WatchedTargetModelImpl>
+              <option name="name" value="CONTEXT_XML" />
+              <option name="transportStagingTarget">
+                <TransportTarget>
+                  <option name="id" value="257f3d8f-ec3e-428a-a692-ae94543dab0c" />
+                  <id>257f3d8f-ec3e-428a-a692-ae94543dab0c</id>
+                </TransportTarget>
+              </option>
+              <option name="watchedLocalPath" value="" />
+              <watched-path />
+              <name>CONTEXT_XML</name>
+              <transport-target>
+                <TransportTarget>
+                  <option name="id" value="257f3d8f-ec3e-428a-a692-ae94543dab0c" />
+                  <id>257f3d8f-ec3e-428a-a692-ae94543dab0c</id>
+                </TransportTarget>
+              </transport-target>
+            </WatchedTargetModelImpl>
+            <StagingTargetModelImpl>
+              <option name="name" value="STAGING" />
+              <option name="stagingRemotePath" value="xlcx" />
+              <option name="transportStagingTarget">
+                <TransportTarget>
+                  <option name="id" value="8a30926d-46ff-47a4-a8f0-f65ef67d5f78" />
+                  <id>8a30926d-46ff-47a4-a8f0-f65ef67d5f78</id>
+                </TransportTarget>
+              </option>
+              <staging-path>xlcx</staging-path>
+              <name>STAGING</name>
+              <transport-target>
+                <TransportTarget>
+                  <option name="id" value="8a30926d-46ff-47a4-a8f0-f65ef67d5f78" />
+                  <id>8a30926d-46ff-47a4-a8f0-f65ef67d5f78</id>
+                </TransportTarget>
+              </transport-target>
+            </StagingTargetModelImpl>
+          </list>
+        </option>
+        <option name="transportHostId" value="07abd538-414d-47e8-ad84-22f5367771a1" />
+        <host-id>07abd538-414d-47e8-ad84-22f5367771a1</host-id>
+      </data>
+    </server-settings>
+    <predefined_log_file enabled="true" id="Tomcat" />
+    <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+    <RunnerSettings RunnerId="Debug">
+      <option name="DEBUG_PORT" value="63729" />
+      <option name="LOCAL" value="false" />
+    </RunnerSettings>
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="xlcx:war" />
+      </option>
+    </method>
+  </configuration>
+</component>
